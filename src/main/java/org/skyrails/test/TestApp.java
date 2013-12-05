@@ -43,7 +43,7 @@ public class TestApp {
 
     private void start() throws Exception {
         //this.client = new SkyrailsClient("10.57.16.232", 9999);
-        this.client = new SkyrailsClient("localhost", 9999);
+        this.client = new SkyrailsClient("localhost", 9998);
         client.connect();
 
         //client.disconnect();
